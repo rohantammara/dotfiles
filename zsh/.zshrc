@@ -80,11 +80,10 @@ plugins=(
 )
 source $ZSH/oh-my-zsh.sh
 
-
-. "$HOME/.cargo/env"
-
 # Custom aliases
 
 alias tmuxgo="~/.tmuxgo.sh"
+
+eval "$(zoxide init zsh)"
 
 #--- EOL added by user ---#
